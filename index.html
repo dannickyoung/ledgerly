@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ledgerly — the AI assistant that sorts your receipts and does your bookkeeping</title>
+  <meta name="description" content="Ledgerly is an AI assistant that sorts your receipts and does your bookkeeping for you. Hand it your receipts, it keeps your books. Book a demo on WhatsApp.">
+  <meta property="og:title" content="Ledgerly — receipts in, books done">
+  <meta property="og:description" content="An AI assistant that sorts your receipts and does your bookkeeping for you. Book a demo on WhatsApp.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dannickyoung.github.io/ledgerly/">
+  <meta property="og:image" content="https://dannickyoung.github.io/ledgerly/images/share.png">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=switzer@300,400,500&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=boska@401&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="nav-pill">
+      <a class="brand" href="#top" aria-label="Ledgerly, back to top">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="15" fill="url(#bm)"/><path d="M11 8v16h11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="bm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6c79a"/><stop offset=".55" stop-color="#e8714a"/><stop offset="1" stop-color="#b9566a"/></linearGradient></defs></svg>
+        Ledgerly
+      </a>
+      <nav id="menu" aria-label="Main">
+        <a href="#product">See it work</a>
+        <a href="#how">How it works</a>
+      </nav>
+      <button class="menu-toggle" type="button" data-menu-toggle aria-controls="menu" aria-expanded="false">
+        <span class="menu-label-open">Menu</span><span class="menu-label-close">Close</span>
+        <span class="menu-lines" aria-hidden="true"></span>
+      </button>
+      <a class="btn btn-dark btn-small" href="https://wa.me/6594569411?text=Hi%20Ledgerly%2C%20I%27d%20like%20to%20book%20a%20demo.">Book a demo</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <div class="sun" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <h1 class="hero-title lines" data-reveal>
+          <span>Your receipts,</span>
+          <span><em>sorted.</em> Your</span>
+          <span>books, done.</span>
+        </h1>
+        <div class="hero-side" data-reveal style="--i:3">
+          <p class="lede">Ledgerly is an AI assistant that sorts your receipts and does your bookkeeping for you. You keep the receipts coming. It keeps the books.</p>
+          <div class="actions">
+            <a class="btn btn-dark" href="https://wa.me/6594569411?text=Hi%20Ledgerly%2C%20I%27d%20like%20to%20book%20a%20demo.">
+              Book a demo on WhatsApp <span class="btn-arrow" aria-hidden="true">&rarr;</span>
+            </a>
+            <a class="btn btn-ghost btn-small" href="#how">See how it works</a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <dl class="meta-strip" data-reveal style="--i:5">
+          <div><dt>What</dt><dd>Receipts in, books out</dd></div>
+          <div><dt>Who does it</dt><dd>An AI assistant</dd></div>
+          <div><dt>Your part</dt><dd>Keep the receipts</dd></div>
+          <div><dt>Demo</dt><dd><a href="https://wa.me/6594569411?text=Hi%20Ledgerly%2C%20I%27d%20like%20to%20book%20a%20demo.">On WhatsApp &rarr;</a></dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- PRODUCT SCENE: receipts turn into ledger lines as you scroll -->
+    <section class="scene" id="product" data-pin aria-labelledby="scene-title">
+      <div class="pin-stage">
+        <div class="scene-sun" aria-hidden="true"></div>
+        <div class="container scene-grid">
+          <div class="scene-copy">
+            <p class="mono label">Ledgerly at work</p>
+            <h2 id="scene-title">A crumpled receipt goes in. A clean line comes out.</h2>
+            <p class="scene-note">Keep scrolling and watch three receipts land in the books. <span class="tag">Example receipts</span></p>
+          </div>
+
+          <div class="receipts" aria-hidden="true">
+            <div class="receipt" style="--s:.08; --r:-6deg; --x:0px; --y:0px; z-index:3">
+              <p class="r-head">KOPI CORNER</p>
+              <p class="r-row"><span>Kopi O x2</span><span>3.60</span></p>
+              <p class="r-row"><span>Kaya toast</span><span>2.80</span></p>
+              <p class="r-total"><span>TOTAL</span><span>6.40</span></p>
+              <p class="r-foot">THANK YOU</p>
+            </div>
+            <div class="receipt" style="--s:.3; --r:4deg; --x:70px; --y:56px; z-index:2">
+              <p class="r-head">PAPER &amp; CO.</p>
+              <p class="r-row"><span>A4 paper 500s</span><span>9.90</span></p>
+              <p class="r-row"><span>Ink cartridge</span><span>32.00</span></p>
+              <p class="r-total"><span>TOTAL</span><span>41.90</span></p>
+              <p class="r-foot">KEEP FOR RETURNS</p>
+            </div>
+            <div class="receipt" style="--s:.52; --r:-2deg; --x:130px; --y:112px; z-index:1">
+              <p class="r-head">CITY TAXI</p>
+              <p class="r-row"><span>Trip 18.4 km</span><span>14.20</span></p>
+              <p class="r-row"><span>Booking fee</span><span>0.90</span></p>
+              <p class="r-total"><span>TOTAL</span><span>15.10</span></p>
+              <p class="r-foot">DRIVE SAFE</p>
+            </div>
+          </div>
+
+          <div class="ledger" role="table" aria-label="Example ledger, filled in from the receipts">
+            <div class="ledger-head" role="row">
+              <span role="columnheader">Vendor</span><span role="columnheader">Category</span><span role="columnheader">Amount</span>
+            </div>
+            <div class="ledger-row" role="row" style="--s:.08">
+              <span role="cell">Kopi Corner</span><span role="cell" class="cat">Meals</span><span role="cell" class="amt">6.40</span>
+            </div>
+            <div class="ledger-row" role="row" style="--s:.3">
+              <span role="cell">Paper &amp; Co.</span><span role="cell" class="cat">Office supplies</span><span role="cell" class="amt">41.90</span>
+            </div>
+            <div class="ledger-row" role="row" style="--s:.52">
+              <span role="cell">City Taxi</span><span role="cell" class="cat">Transport</span><span role="cell" class="amt">15.10</span>
+            </div>
+            <div class="ledger-total" role="row">
+              <span role="cell">This week</span><span role="cell"></span><span role="cell" class="amt">63.40</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section how" id="how" aria-labelledby="how-title">
+      <div class="container">
+        <h2 id="how-title" class="statement" data-reveal>Three steps. You only do the first one.</h2>
+        <div class="tray">
+          <ol class="steps">
+            <li data-reveal style="--i:0"><span class="step-n">1</span><h3>Hand it over</h3><p>Give Ledgerly your receipts.</p></li>
+            <li data-reveal style="--i:1"><span class="step-n">2</span><h3>Sorted</h3><p>Ledgerly sorts every one of them for you.</p></li>
+            <li data-reveal style="--i:2"><span class="step-n">3</span><h3>Books done</h3><p>It does your bookkeeping, so you don't have to.</p></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINALE -->
+    <section class="finale" aria-labelledby="finale-title">
+      <div class="finale-grain" aria-hidden="true"></div>
+      <div class="container finale-inner">
+        <h2 id="finale-title" class="lines" data-reveal><span>Let's do</span><span>your books.</span></h2>
+        <div class="finale-side" data-reveal style="--i:2">
+          <p>Message us on WhatsApp and we'll show you Ledgerly with your own receipts.</p>
+          <a class="btn btn-dark btn-large" href="https://wa.me/6594569411?text=Hi%20Ledgerly%2C%20I%27d%20like%20to%20book%20a%20demo.">Book a demo <span class="btn-arrow" aria-hidden="true">&rarr;</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-cols">
+        <div><p class="mono label">Demos</p><p><a href="https://wa.me/6594569411?text=Hi%20Ledgerly%2C%20I%27d%20like%20to%20book%20a%20demo.">WhatsApp +65 9456 9411</a></p></div>
+        <div><p class="mono label">On this page</p><p><a href="#product">See it work</a> · <a href="#how">How it works</a></p></div>
+        <div><p class="mono label">Ledgerly</p><p>&copy; <span data-year>2026</span> Ledgerly</p></div>
+      </div>
+      <p class="wordmark" data-fit aria-hidden="true">Ledgerly</p>
+    </div>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
